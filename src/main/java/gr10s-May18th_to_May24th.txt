@@ -1,0 +1,66 @@
+The first 4 problems must be done on paper and then typed onto the computer.
+
+====================================== QUESTION 1 =====================================
+Do Project Euler Problem 1. https://projecteuler.net/problem=1
+
+====================================== QUESTION 2 =====================================
+Do Project Euler Problem 2. https://projecteuler.net/problem=2
+
+====================================== QUESTION 3 =====================================
+Here are two function signatures:
+
+static List<Double> filterAllInRange(List<Double> nums, min, max) {
+	// Fill in the rest
+}Let 
+
+static void printAllInRange(List<Double> nums, min, max) {
+	// Fill in the rest
+}
+
+filterAllInRange returns a new list containing all x in nums such that min <= x <= max.
+printAllInRange every value x in nums such that min <= x <= max.
+
+Write printAllInRange such that it makes use of filterAllInRange. You are not allowed to 
+use any if statements in printAllInRange.
+
+====================================== QUESTION 4 =====================================
+Guess what this function is supposed to do and then implement it.
+
+static void printListNTimes(List<String> list, int n) {
+	// Fill in the rest
+}
+
+====================================== QUESTION 5 =====================================
+Here is a function signature:
+
+static List<String> zipperMergeThreeLists(List<String> list0, List<String> list1, List<String> list2) {
+	// Fill in the rest
+}
+
+Assume that each list is of the same length/size. Return a new list where the
+0th element is the 0th element from list0, the 1st element is the 0th element
+in list1, the 2nd element is the 0th element in list2, the 3rd element is the
+1st element from list0 and so on.
+
+====================================== QUESTION 6 =====================================
+Create an interface called TwoDimensionalShape. It has the two following methods:
+	double getArea() - Returns the area of the shape.
+	double getPerimeter() - Returns the perimeter of the shape.
+	int getNumOfEdges() - Returns the number of edges of the shape.
+	int getNumOfCorners() - Returns the number of corners of the shape.
+
+Create the classes Square, Rectangle, Circle, EquilateralTriangle, RightAngledTriange, 
+  Parallelogram, RegularHexagon, RegularPentagon, Trapezoid that implement the interface 
+  of TwoDimensionalShape.
+
+- Note: The constructor for each of these classes should take in the minimum number of 
+  parameters to be able to specify a shape of that class of any size.
+
+====================================== QUESTION 7 =====================================
+Make a text-based interactive game of some sort. Test your abilities and have
+fun with it. This should take you somewhere between 1 to 5 hours. Suggestions:
+
+- knock-knock joke "chatbot"
+- tic-tac-toe
+- rock paper scissors (either 2 player, against the computer or both)
+
